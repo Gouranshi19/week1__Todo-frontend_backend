@@ -1,0 +1,30 @@
+<body>
+    <div class="container">
+
+        <h1>Todo List</h1>
+<link rel="stylesheet" href="style.css">
+        <div class="input-section">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter task"
+                maxlength="100"
+            >
+
+            <div class="task-counter">
+                Total Tasks:
+                <strong id="taskCount">0</strong>
+            </div>
+
+            <button class="add-btn" onclick="addTask()">
+                Add
+            </button>
+
+        </div>
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
