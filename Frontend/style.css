@@ -66,3 +66,23 @@ li {
 
 .done-btn { background: #2196F3; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; }
 .delete-btn { background: #f44336; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; margin-left: 5px; }
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.filters button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #4da3f5;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.filters button:hover {
+    background: #2f8fe9;
+}
