@@ -64,6 +64,11 @@ function renderTasks() {
     updateTaskCounter();
 }
 
+function filterTasks(filter) {
+    currentFilter = filter;
+    renderTasks();
+}
+
 async function loadTasks() {
     try {
         const response = await fetch(API);
